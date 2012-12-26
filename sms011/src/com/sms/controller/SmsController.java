@@ -1,7 +1,6 @@
 package com.sms.controller;
 
 import java.io.IOException;
-import java.sql.SQLException;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -10,15 +9,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import javax.swing.JOptionPane;
-
 import com.sms.bo.SmsBO;
 import com.sms.delegate.SmsDelegate;
 import com.sms.exceptions.SmsBusinessException;
 import com.sms.exceptions.SmsException;
 import com.sms.vo.ExtraVO;
 import com.sms.vo.SubjectVO;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
 
 /**
  * Servlet implementation class SmsController
